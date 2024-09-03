@@ -36,6 +36,7 @@ body, ul, li, p {
 }
 
 .footer {
+    background-color: gray;
     grid-area: footer;
     text-align: center;
     border: 1px;
@@ -74,7 +75,11 @@ h1 {
 }
 
 .flex > div {
-
+    padding: 2px;
+    flex: 1 1 250px;
+    border: 1px;
+    border-style: solid;
+    border-color: black
 }
 
 main img {
